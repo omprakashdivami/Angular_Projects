@@ -1,0 +1,8 @@
+<div>
+  <div >count :<span [ngClass]="getcolor()">{{count}}</span></div>
+  <app-child [hero]="count" (parentFun)="parentFun($event)"></app-child>
+
+  <!-- <button (click)="Encoder()">+</button>
+  
+  <button (click)="Decoder()">-</button> -->
+</div>
