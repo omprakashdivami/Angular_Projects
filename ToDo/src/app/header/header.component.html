@@ -1,0 +1,4 @@
+<app-inputfields [placeholder]="'name'" (change)="readName($event)"></app-inputfields>
+<app-inputfields [placeholder]="'Description'" (change)="readDes($event)" ></app-inputfields>
+<!-- (change)==>will scope to header.Ts -->
+<button (click)="addTask()">+</button>

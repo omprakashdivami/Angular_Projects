@@ -1,0 +1,9 @@
+<div>
+    <div *ngFor="let obj of detailsArray; let i=index">
+        <div class="flex">
+            <div>{{obj.name}}</div>
+            <div>{{obj.desc}}</div>
+            <button (click)="del(i)">del</button>
+        </div>
+    </div>
+</div>
